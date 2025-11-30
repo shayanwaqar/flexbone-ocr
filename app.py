@@ -25,8 +25,6 @@ def index():
 
                 # Run Tesseract OCR
                 extracted_text = pytesseract.image_to_string(image)
-
-                # Optional: strip trailing whitespace
                 extracted_text = extracted_text.strip()
 
                 # If Tesseract returns nothing
@@ -39,5 +37,4 @@ def index():
     return render_template("index.html", text=extracted_text, error=error)
 
 if __name__ == "__main__":
-    # Port 8080 so it matches Cloud Run later
     app.run(host="0.0.0.0", port=8080, debug=True)
