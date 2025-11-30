@@ -6,7 +6,7 @@ Users can upload an image and instantly extract text directly from the browser.
 
 ---
 
-## 🚀 Live Demo
+* 🚀 Live Demo
 
 🔗 **Public App URL:**
 
@@ -127,16 +127,12 @@ Cloud Run will return a public URL where your OCR app is live.
 
 ## 💡 Notes & Limitations
 
-OCR accuracy depends heavily on image quality and lighting.
-
-This demo is intended as a lightweight proof-of-concept.
-
-Tesseract may potentially misread stylized fonts or handwriting.
+* OCR accuracy depends heavily on image quality and lighting.
+* This demo is intended as a lightweight proof-of-concept.
+* Tesseract MIGHT misread stylized fonts or handwriting.
 
 ---
 
 ## 📬 Author
 
 **Shayan Waqar**
-
----
